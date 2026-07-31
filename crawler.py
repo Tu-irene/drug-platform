@@ -9,7 +9,7 @@ print(f"🔑 檢查 URL: {supabase_url[:20] if supabase_url else 'NONE'}...")
 try:
     supabase = create_client(supabase_url, supabase_key)
 
-    # 構造一筆寫入測試資料
+    # 構造一筆測試資料
     test_data = [{
         "country": "測試國家",
         "brand_name": "測試藥品-吉利達",
